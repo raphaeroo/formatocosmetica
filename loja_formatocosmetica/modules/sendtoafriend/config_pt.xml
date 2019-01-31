@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>sendtoafriend</name>
+	<displayName><![CDATA[M&oacute;dulo Enviar a um Amigo]]></displayName>
+	<version><![CDATA[1.9.0]]></version>
+	<description><![CDATA[Permite aos clientes enviar a liga&ccedil;&atilde;o de uma p&aacute;gina de um produto por email a outra pessoa.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

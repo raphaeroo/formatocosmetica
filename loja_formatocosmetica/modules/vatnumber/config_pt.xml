@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>vatnumber</name>
+	<displayName><![CDATA[NIF intra-comunit&aacute;rio]]></displayName>
+	<version><![CDATA[2.0.0]]></version>
+	<description><![CDATA[Permite a introdu&ccedil;&atilde;o do n&uacute;mero de identifica&ccedil;&atilde;o fiscal intra-comunit&aacute;rio europeu ao criarem endere&ccedil;os. Tem de preencher o campo da empresa para permitir a introdu&ccedil;&atilde;o do n&uacute;mero de identifica&ccedil;&atilde;o fiscal intra-comunit&aacute;rio.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[billing_invoicing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

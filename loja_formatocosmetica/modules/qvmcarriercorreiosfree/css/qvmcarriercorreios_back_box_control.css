@@ -1,0 +1,107 @@
+/*
+*  @author CARLIVAN PEREIRA <carlivanpereira@gmail.com>
+*  @copyright  2009-2014 CASIPE - Desenvolvedor Web
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*/
+
+.box_control > #header > ul 
+{
+	list-style: none;
+}
+
+.box_control
+{ 
+	max-width:1200px; 
+	border-radius:0px 0px 10px 10px; 	
+} 
+.box_control #header
+{ 
+	overflow:hidden; 
+	cursor:hand;
+} 
+
+.box_control #contents
+{ 	 
+	border:#819896 solid 1px;	
+	overflow:hidden; 
+	height:100%;
+	border-radius:0px 10px 10px 10px; 	
+} 
+ 
+.box_control #contents, .box_control #header{width:1030px;} 
+ 
+p.about{padding-top:50px;}
+
+.box_control input,.box_control select,
+.box_control textarea
+{
+	border:#819896 solid 1px;
+	border-radius:5px; 
+	font-weight:bold;
+	resize:none;
+	padding:5px;
+}
+
+
+/*Menu*/
+.box_control .abas{display:inline;} 
+.box_control .abas li{float:left} 
+
+.aba, .aba_hidden
+{
+	width:auto;
+	height:23px; 
+	border:#819896 solid 1px; 
+	border-bottom:solid 0px; 
+	border-radius:10px 0px 0 0; 
+	text-align:center; 
+	padding:2px 18px;
+	margin-right:2px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#82ae99', endColorstr='#dbf3e8'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#82ae99), to(#dbf3e8));
+	background: -moz-linear-gradient(top,  #82ae99,  #dbf3e8); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #82ae99,  #dbf3e8); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #82ae99,  #dbf3e8); /*  IE10+ */
+	color:#0b502f;
+	font-weight:bold;
+	cursor:pointer;	
+} 
+.box_control .aba_hidden {display:block; background:#cdd9d8; } 
+
+.box_control .active
+{
+	text-align:center; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08ec7e', endColorstr='#dbf3e8'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#08ec7e), to(#dbf3e8));
+	background: -moz-linear-gradient(top,  #08ec7e,  #dbf3e8); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #08ec7e,  #dbf3e8); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #08ec7e,  #dbf3e8); /*  IE10+ */	
+} 
+
+.box_control  .active span, .box_control .selected span{color:#0b502f; *font-weight:bold;} 
+
+.box_control #contents{background:#fff} 
+
+.box_control .content
+{
+	padding:3px;
+	width:100%; 
+	background:#e6faf8; 
+	display:none; 
+	height:100%;
+	color:#466966;	
+} 
+.box_control .selected
+{
+	text-align:center; 
+	color:#97c2be;
+	background:#bee6e2;	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#21c174', endColorstr='#dbf3e8'); /*IE6-9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#21c174), to(#dbf3e8));
+	background: -moz-linear-gradient(top,  #21c174,  #dbf3e8); /*firefox 3.6+ */
+	background: -o-linear-gradient(top,  #21c174,  #dbf3e8); /*  Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #21c174,  #dbf3e8); /*  IE10+ */
+} 
+
+div.box_control .content{ min-height: 280px;}
+

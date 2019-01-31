@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>correioscarrier</name>
+            <displayName><![CDATA[Transporte pelos Correios]]></displayName>
+            <version><![CDATA[1.07]]></version>
+            <description><![CDATA[Modificado por Fabrice Menoyot. Ofere&ccedil;a a seus clientes diferentes m&eacute;todos de entrega com os Correios do Brasil.]]></description>
+            <author><![CDATA[Rodrigo Laurindo]]></author>
+            <tab><![CDATA[shipping_logistics]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries>br</limited_countries>
+        </module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>socialsharing</name>
+	<displayName><![CDATA[Partilha social]]></displayName>
+	<version><![CDATA[1.4.3]]></version>
+	<description><![CDATA[Mostra os bot&otilde;es de partilha nas redes sociais (Twitter, Facebook, Google+ e Pinterest) em todas as p&aacute;ginas de produtos.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
